@@ -1,4 +1,4 @@
-def find_rightmost_set_bit_position(n):
+def rightmost_set_bit_position(n):
     if n == 0:
         return -1 
     position = 1  
@@ -9,7 +9,7 @@ def find_rightmost_set_bit_position(n):
     return position
 
 number = int(input("Enter number: "))
-position = find_rightmost_set_bit_position(number)
+position = rightmost_set_bit_position(number)
 
 if position == -1:
     print("There are no set bits in the number.")
